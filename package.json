@@ -1,6 +1,9 @@
 {
   "name": "@fuzzybits/sandollar-ui",
   "private": true,
+  "scripts": {
+    "jest": "jest --runInBand"
+  },
   "devDependencies": {
     "enzyme": "^3.9.0",
     "jest": "^24.8.0",
