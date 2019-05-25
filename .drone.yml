@@ -7,3 +7,6 @@ steps:
   commands:
   - yarn
   - yarn jest
+  trigger:
+    branch:
+    - master
