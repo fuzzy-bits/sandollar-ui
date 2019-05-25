@@ -1,0 +1,9 @@
+kind: pipeline
+name: default
+
+steps:
+- name: run tests
+  image: node
+  commands:
+  - yarn
+  - yarn jest
