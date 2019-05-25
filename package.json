@@ -1,0 +1,17 @@
+{
+  "name": "@fuzzybits/sandollar-ui",
+  "private": true,
+  "devDependencies": {
+    "enzyme": "^3.9.0",
+    "jest": "^24.8.0",
+    "lerna": "^3.14.1"
+  },
+  "version": "0.0.1",
+  "description": "UI components for the Sandollar PoS system",
+  "main": "index.js",
+  "author": "Aaron Dosser & Lane Shaw @ fuzzybits.org",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.8.6"
+  }
+}
