@@ -1,7 +1,21 @@
 'use strict';
 
-const sandollarUiSortable = require('..');
+import SorTable from '..'
+import React from 'react'
+import { shallow } from 'enzyme'
 
 describe('@fuzzybits/sandollar-ui-sortable', () => {
-    it('needs tests');
+  let wrapper
+
+  beforeEach(() => {
+    wrapper = shallow(<SorTable />)
+  })
+
+  afterEach(() => {
+    wrapper.unmount()
+  })
+
+  it('renders', () => {
+    expect(wrapper.contains(<div>test</div>)).toBe(true)
+  })
 });

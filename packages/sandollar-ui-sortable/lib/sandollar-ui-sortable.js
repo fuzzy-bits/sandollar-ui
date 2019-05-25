@@ -1,7 +1,26 @@
-'use strict';
+import React, { Component } from 'react'
 
-module.exports = sandollarUiSortable;
+class SorTable extends Component {
+  state = {
+    items: this.props.items || [],
+    sort: [{
+      key: '',
+      order: 'DESC',
+    }],
+  }
 
-function sandollarUiSortable() {
-    // TODO
+  static getDerivedStateFromProps(nextProps, prevState) {
+    if (JSON.stringify(nextProps.items) !== JSON.stringify(prevState.items)) {
+      return { items: nextProps.items }
+    }
+    return null
+  }
+
+  render() {
+    return (
+      <div>test</div>
+    )
+  }
 }
+
+export default SorTable
