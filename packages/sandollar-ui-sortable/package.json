@@ -1,0 +1,25 @@
+{
+  "name": "@fuzzybits/sandollar-ui-sortable",
+  "version": "0.0.1",
+  "description": "SorTable component for making sortable tables from an array of objects",
+  "keywords": [
+    "react"
+  ],
+  "author": "Aaron Dosser <aaron.dosser@beam.dental>",
+  "homepage": "",
+  "license": "MIT",
+  "main": "lib/sandollar-ui-sortable.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.yarnpkg.com"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  }
+}
